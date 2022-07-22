@@ -28,7 +28,7 @@ pipeline {
       nexusVersion: 'nexus3',
       protocol: 'http',
       nexusUrl: 'ec2-54-90-198-218.compute-1.amazonaws.com:8081',
-      groupId: 'myGroupId',
+      groupId: 'com.dept.app',
       version: '1.0-SNAPSHOT',
       repository: 'maven-snapshots',
       credentialsId: 'b5835509-bdf8-4db8-90d7-cae879bd03e0',
